@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f1f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.register-header h1 {
+    color: #315b7d;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.register-header p {
+    color: #777;
+    font-size: 14px;
+}
+
+.register-group {
+    margin-bottom: 18px;
+}
+
+.register-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.register-group input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.register-group input:focus {
+    outline: none;
+    border-color: #527fa5;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #527fa5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #315b7d;
+}
+
+.register-footer {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 13px;
+    color: #777;
+}
